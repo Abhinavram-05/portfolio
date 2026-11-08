@@ -585,17 +585,17 @@ body {
 .writing-card {
     background: var(--bg-card);
     border: 1px solid var(--border-glass);
-    padding: 3.2rem;
+    padding: 3rem;
     border-radius: 14px;
-    transition: var(--transition-base);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     overflow: hidden;
     backdrop-filter: blur(10px);
 }
 
 .writing-card:hover {
-    border-color: rgba(165, 243, 252, 0.35);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(165, 243, 252, 0.1);
+    border-color: rgba(165, 243, 252, 0.25);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 .writing-badge {
